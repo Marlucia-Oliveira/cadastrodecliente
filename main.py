@@ -62,8 +62,8 @@ while(opcao!=0):
         inserir()
     elif opcao==2:
         listar()
-    elif(opcao==3):
-       consultar()
+    elif opcao==3:
+        consultar(cliente)
     else:
         print('Opção inválida')
 
